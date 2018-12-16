@@ -10,12 +10,6 @@ use Carbon\Carbon;
 interface WeatherAdapterInterface
 {
     /**
-     * WeatherAdapterInterface constructor.
-     * @param array $data
-     */
-    public function __construct(array $data);
-
-    /**
      * @return string
      */
     public function location(): string;
