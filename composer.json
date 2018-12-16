@@ -1,0 +1,19 @@
+{
+    "name": "robertconvery/weather-adapter-interface",
+    "description": "A shared interface for weather gateways",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Convery",
+            "email": "robconvery@me.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "nesbot/carbon": "^1.26.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
