@@ -1,5 +1,5 @@
 {
-    "name": "robertconvery/weather-adapter-interface",
+    "name": "robconvery/weather-adapter-interface",
     "description": "A shared interface for weather gateways",
     "license": "MIT",
     "authors": [
