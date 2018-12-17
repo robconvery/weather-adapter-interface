@@ -16,6 +16,11 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "*"
     },
+    "autoload": {
+        "psr-4": {
+            "Robconvery\\WeatherAdapter\\": "src/"
+        }
+    },
     "scripts": {
         "cs": [
             "./vendor/bin/phpcs --standard=PSR2 src"
