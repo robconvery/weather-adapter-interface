@@ -3,7 +3,7 @@
  * Interface WeatherAdapterInterface
  */
 
-namespace Robertconvery\WeatherAdapterInterface;
+namespace Robertconvery\WeatherAdapter;
 
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
