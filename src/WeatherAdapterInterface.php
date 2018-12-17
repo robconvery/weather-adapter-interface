@@ -6,13 +6,21 @@
 namespace Robertconvery\WeatherAdapterInterface;
 
 use Carbon\Carbon;
+use Illuminate\Support\Collection;
 
 interface WeatherAdapterInterface
 {
     /**
-     * @return int
+     * Append a forecast to the list of forecasts
+     * @param WeatherAdapterInterface $adapter
+     * @return mixed
      */
-    public function forecasts(): int;
+    public function attach(WeatherAdapterInterface $adapter);
+
+    /**
+     * @return Collection
+     */
+    public function forecasts(): Collection;
 
     /**
      * @return string
