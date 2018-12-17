@@ -10,6 +10,11 @@ use Carbon\Carbon;
 interface WeatherAdapterInterface
 {
     /**
+     * @return int
+     */
+    public function forecasts(): int;
+
+    /**
      * @return string
      */
     public function location(): string;
