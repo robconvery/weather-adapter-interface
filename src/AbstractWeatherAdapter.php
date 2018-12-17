@@ -8,6 +8,8 @@
 
 namespace Robertconvery\WeatherAdapter;
 
+use Illuminate\Support\Collection;
+
 abstract class AbstractWeatherAdapter
 {
 
