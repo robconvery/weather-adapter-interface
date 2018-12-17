@@ -6,7 +6,7 @@
  * @author robconvery <robconvery@me.com>
  */
 
-namespace Robertconvery\WeatherAdapter;
+namespace Robconvery\WeatherAdapter;
 
 use Illuminate\Support\Collection;
 use Carbon\Carbon;
