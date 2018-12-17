@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /**
  * Class AbstractWeatherAdapter
  *
@@ -9,6 +9,7 @@
 namespace Robertconvery\WeatherAdapter;
 
 use Illuminate\Support\Collection;
+use Carbon\Carbon;
 
 abstract class AbstractWeatherAdapter
 {
