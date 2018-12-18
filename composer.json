@@ -8,7 +8,6 @@
             "email": "robconvery@me.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.1",
         "nesbot/carbon": "^1.26.3"
