@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b90d1f4e1b8c16bfdc5f598cae6fecc4",
+    "content-hash": "f00523dbb8f94309422bbbabd7055484",
     "packages": [
         {
             "name": "nesbot/carbon",
@@ -66,7 +66,7 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
@@ -193,16 +193,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "dev-master",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "5c111fac40dc3ed9b62e33aa641b35c9b5ef5cd0"
+                "reference": "c0e2191e9bed845946ab3d99767513b56ca7dcd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/5c111fac40dc3ed9b62e33aa641b35c9b5ef5cd0",
-                "reference": "5c111fac40dc3ed9b62e33aa641b35c9b5ef5cd0",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/c0e2191e9bed845946ab3d99767513b56ca7dcd6",
+                "reference": "c0e2191e9bed845946ab3d99767513b56ca7dcd6",
                 "shasum": ""
             },
             "require": {
@@ -235,7 +235,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.2-dev"
                 }
             },
             "autoload": {
@@ -262,22 +262,22 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-12-13T12:43:21+00:00"
+            "time": "2018-12-06T10:45:32+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "dev-master",
+            "version": "3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "4274b5a139f0305443ed1b6709448bb9b3a45a4f"
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4274b5a139f0305443ed1b6709448bb9b3a45a4f",
-                "reference": "4274b5a139f0305443ed1b6709448bb9b3a45a4f",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/6ad28354c04b364c3c71a34e4a18b629cc3b231e",
+                "reference": "6ad28354c04b364c3c71a34e4a18b629cc3b231e",
                 "shasum": ""
             },
             "require": {
@@ -315,11 +315,11 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-12-17T02:43:59+00:00"
+            "time": "2018-09-23T23:08:17+00:00"
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
